@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ibotrox.leptocephalus.geobaby.testtablayout.WhatisCynosure">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:background="@color/accentColor"
+            card_view:cardCornerRadius="1dp">
+
+            <TextView
+                android:id="@+id/position"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_margin="25dp"
+                android:text="Ever wondered what an engineer is capable of? Right from the screen you are looking at, to the aeroplanes that fly over your head, its all from an engineer. Get mesmerized in the world of engineering by the latest of latest and best of best. Experience how math, science, technology and logic are applied to make the change to a better world. Come feel the power of an engineer. Cynosure 2015, Experience Engineering
+"
+                android:textColor="@color/primaryColor"
+                android:elevation="25dp"
+                android:textSize="20sp"/>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:background="@color/accentColor"
+            card_view:cardCornerRadius="1dp">
+
+            <TextView
+                android:id="@+id/position2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_margin="25dp"
+                android:text="Some of our main attractions include latest gadgets like 3d printer, google glasses and lot more for your geeky desires to feast on. Stalls from organizations which all Indians are proud of ASI, NCC, Startup Village, CDAC, Priyadharshini planetarium"
+                android:textColor="@color/primaryColor"
+                android:elevation="25dp"
+                android:textSize="15sp"/>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:background="@color/accentColor"
+            card_view:cardCornerRadius="1dp">
+
+            <TextView
+                android:id="@+id/position3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_margin="25dp"
+                android:text="A P J Abdul Kalam once said:\n'All of us do not have equal talent. But all of us have an equal opportunity to develop our talents'\n
+Don't miss this opportunity.
+For more details contact:\n
+Abi P Mathew (staff coordinator): 9447581511\n
+Arun C Abraham(student coordinator): 9497330234\n\n
+www.cynosure15.com
+"
+                android:textColor="@color/primaryColor"
+                android:elevation="25dp"
+                android:textSize="15sp"/>
+
+        </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

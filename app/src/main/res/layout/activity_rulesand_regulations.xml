@@ -1,0 +1,327 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ibotrox.leptocephalus.geobaby.testtablayout.RulesandRegulationsActivity">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+    <!--
+
+
+    -->
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbars="vertical">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view1"
+            android:layout_below="@+id/app_bar"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_gravity="center"
+            card_view:cardCornerRadius="10dp"
+            android:elevation="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="16sp"
+                android:text="Entry to compete in the project expo is only through online registration."/>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view2"
+            android:layout_below="@+id/app_bar"
+            android:scrollbars="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_gravity="center"
+            card_view:cardCornerRadius="10dp"
+            android:elevation="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_margin="10dp"
+                android:text="A video demonstration of the project is preferred for the college level expo."/>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view3"
+            android:layout_below="@+id/app_bar"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_gravity="center"
+            card_view:cardCornerRadius="10dp"
+            android:elevation="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_margin="10dp"
+                android:text="A team of maximum 5 members is allowed."/>
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view4"
+            android:layout_below="@+id/app_bar"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_gravity="center"
+            card_view:cardCornerRadius="10dp"
+            android:elevation="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_margin="10dp"
+                android:text="Cross College teams are allowed."/>
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view5"
+            android:layout_below="@+id/app_bar"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_gravity="center"
+            card_view:cardCornerRadius="10dp"
+            android:elevation="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_margin="10dp"
+                android:text="Once selected members cannot be added or changed."/>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view6"
+            android:layout_below="@+id/app_bar"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_gravity="center"
+            card_view:cardCornerRadius="10dp"
+            android:elevation="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_margin="10dp"
+                android:text="All selected candidates will be notified via e-mail or phone."/>
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view7"
+            android:layout_below="@+id/app_bar"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_gravity="center"
+            card_view:cardCornerRadius="10dp"
+            android:elevation="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_margin="10dp"
+                android:text="The selected candidates are required to bring 2 hard copies of their project report."/>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view8"
+            android:layout_below="@+id/app_bar"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_gravity="center"
+            card_view:cardCornerRadius="10dp"
+            android:elevation="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_margin="10dp"
+                android:text="All selected teams will be given sufficient space along with basic requirements.
+Teams in need of any other specific requirement may contact the respective coordinators."/>
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view9"
+            android:layout_below="@+id/app_bar"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_gravity="center"
+            card_view:cardCornerRadius="10dp"
+            android:elevation="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_margin="10dp"
+                android:text="Only ongoing projects or fully operational projects will be selected."/>
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view10"
+            android:layout_below="@+id/app_bar"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_gravity="center"
+            card_view:cardCornerRadius="10dp"
+            android:elevation="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_margin="10dp"
+                android:text="
+Projects in any discipline of engineering is welcome. Projects outside field of engineering that are innovative are also encouraged. (This rule isn’t a must for school level, any area is accepted.)
+Points will be awarded on the basis of: \n\n
+\t1. Innovation\n
+\t2. Applicability\n
+\t3. Presentation Skills\n
+\t4. Replication\n
+\t5. Potential and Social Acceptance"/>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view12"
+            android:layout_below="@+id/app_bar"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_gravity="center"
+            card_view:cardCornerRadius="10dp"
+            android:elevation="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_margin="10dp"
+                android:text="Selfie - Online selfie contest\n\nThe contest aims at finding the best selfie taken with the camera of smartphone you are holding now. Photos taken by any other device wont be accepted. A small delay of 3 seconds may take before your photo is uploaded to the servers. You can view the photos in the app itself (after verification).\nTotal prize worth 1k. Winners will be contacted via phone."/>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view11"
+            android:layout_below="@+id/app_bar"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_gravity="center"
+            card_view:cardCornerRadius="10dp"
+            android:elevation="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_margin="10dp"
+                android:text="Judge's decision will be final and binding."/>
+
+
+        </android.support.v7.widget.CardView>
+
+
+            <!--
+            <TextView
+                android:id="@+id/mTextView"
+                android:layout_width="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="•	Entry to compete in the project expo is only through online registration. Online registrations will close on …….\n\n
+•	A video demonstration of the project is preferred for the college level expo.\n\n
+•	A team of maximum 5 members is allowed.\n\n
+•	Cross College teams are allowed.\n\n
+•	Once selected members cannot be added or changed.\n\n
+•	All selected candidates will be notified via e-mail or phone.\n\n
+•	The selected candidates are required to bring 2 hard copies of their project report.\n\n
+•	All selected teams will be given sufficient space along with basic requirements.\n\n
+•	Teams in need of any other specific requirement may contact…….\n\n
+•	Only ongoing projects or fully operational projects will be selected.\n\n
+•	Projects in any discipline of engineering is welcome. Projects outside field of engineering that are innovative are also encouraged. (This rule isn’t a must for school level, any area is accepted.)\n\n
+•	Points will be awarded on the basis of\n\n
+\to	Innovation
+\to	Applicability
+\to	Presentation Skills
+\to	Replication Potential and Social Acceptance\n\n
+•	Judges decision will be final and binding.
+"
+                android:textSize="15dp"/>
+-->
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>

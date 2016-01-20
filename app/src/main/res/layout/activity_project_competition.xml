@@ -1,0 +1,193 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ibotrox.leptocephalus.geobaby.testtablayout.ProjectCompetition">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:elevation="5dp"
+        card_view:cardCornerRadius="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/info_text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/accentColor"
+                android:gravity="center"
+                android:text="School Level"
+                android:textAlignment="center"
+                android:textSize="18dp" />
+            <!--android:background="@drawable/myrect"-->
+            <TextView
+                android:id="@+id/info_text2.1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="@drawable/myrect"
+                android:text="Kerala’s biggest project competition for school students of classes 10th-12h. Year wise competition will be held and attractive prizes for the best ideas and presentation. Class 12 Winners will be eligible for an undergraduate scholarship to SJCET Palai.
+
+Prizes, dates and more details coming soon."
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:elevation="5dp"
+        card_view:cardCornerRadius="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/info_text3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/accentColor"
+                android:gravity="center"
+                android:text="Graduate Level"
+                android:textAlignment="center"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/info_text3.1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="@drawable/myrect"
+                android:text="Multidisciplinary technical project competition for graduates and undergraduates.
+2015 passing out students can also apply.\n
+The competition will consists of 2 rounds:\n\n
+     1. Abstract submission\n
+     2. Competition on the selected projects.\n\n
+
+Prizes, dates and more details coming soon."
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view31"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:elevation="5dp"
+                card_view:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/info_text31"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:gravity="center"
+                        android:background="@color/accentColor"
+                        android:text="Cynotech Junior\n
+Project expo for the young minds.
+A stepping stone to the engineering world . Be a part of Cynotech junior and experience  engineering.
+A platform not only to showcase your innovative ideas but to learn more about engineering and you can also get a glimpse of  practical engineering applications.\n\n
+
+Prizes worth 15000
+All innovative projects are welcome.
+Working or still models are acceptable.
+Register at\n
+ www.cynosure15.com\n\n
+Contact us at:n\
+Students in charge:\n
+Amal Sebastian: 9947134570\n
+Arnold Antony: 9496373138\n
+Babushanker S(staff in charge):\n
+ 9544397793\n\n
+"
+                        android:textAlignment="center"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view32"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:elevation="5dp"
+                card_view:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/info_text32"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:background="@color/accentColor"
+                        android:text="Cynotech Project Expo\n
+The biggest project expo in our side. 2015 pass out engineering graduates can also apply.
+Prizes worth 1 lakh.
+"
+                        android:textAlignment="center"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

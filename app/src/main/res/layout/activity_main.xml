@@ -1,0 +1,67 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawer_layout_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <!-- for Text Tabs --><!--
+    <it.neokree.materialtabs.MaterialTabHost
+        android:id="@+id/materialTabHost"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        app:accentColor="@color/accentColor"
+        app:primaryColor="@color/primaryColor"
+        app:textColor="@color/primaryTextColor" />-->
+
+        <!-- for icon tabs -->
+        <it.neokree.materialtabs.MaterialTabHost
+            android:id="@+id/materialTabHost"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            app:accentColor="@color/accentColor"
+            app:hasIcons="true"
+            android:elevation="2dp"
+            app:iconColor="#FFFFFF"
+            app:primaryColor="@color/primaryColor" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@+id/materialTabHost"
+            android:layout_weight="1">
+
+        </android.support.v4.view.ViewPager>
+
+    </LinearLayout>
+
+    <!-- NAVIGATION DRAWER -->
+    <fragment
+        android:id="@+id/fragment_nav_drawer_id"
+        android:layout_width="@dimen/nav_drawer_widtu"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:layout="@layout/fragment_navigation_drawer"
+        android:name="ibotrox.leptocephalus.geobaby.testtablayout.NavigationDrawerFragment"
+        tools:layout="@layout/fragment_navigation_drawer" />
+
+</android.support.v4.widget.DrawerLayout>
+
+</LinearLayout>

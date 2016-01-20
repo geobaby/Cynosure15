@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/homeScreenLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:id="@+id/fragmentContainerId1"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:layout_weight="0.50">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:background="@color/primaryColor"
+        android:text="Experience Engineering"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_weight="0.30"
+        android:layout_gravity="center_vertical"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:background="@color/accentColor"
+        android:text="CYNOSURE"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_weight="0.50"
+        android:layout_gravity="center_vertical"/>
+    <!--<View-->
+        <!--android:id="@+id/myView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:background="@android:color/darker_gray"/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:orientation="horizontal"
+        android:id="@+id/fragmentContainerId2"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="1.0">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:background="@color/primaryColorDark"
+        android:text="September 17,18,19"
+        android:textColor="#FFF"
+        android:textSize="15dp"
+        android:layout_weight="0.25"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"/>
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Cynosure15</string>
+
+    <string name="hello_world">Hello world!</string>
+    <!--    <string name="action_settings">Settings</string>    -->
+    <string name="action_settings">When and Where</string>
+    <string name="facebook_link"><a href="https://www.facebook.com/cynosuresjcet?fref=ts">Visit</a></string>
+    <string name="instagram_link"><a href="https://instagram.com/cynosure15/">Follow</a></string>
+    <string name="twitter_link"><a href="https://twitter.com/cynosure_15">Follow</a></string>
+
+    <string-array name="tabs">
+
+        <item>tab 1</item>
+        <item>tab 2</item>
+        <item>tab 3</item>
+        <item>tab 3</item>
+        <item>tab 3</item>
+        <item>tab 3</item>
+
+    </string-array>
+
+    <string-array name="exhibitions_tabs">
+
+        <item>AEI</item>
+        <item>CE</item>
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>EC</item>
+        <item>ME</item>
+
+    </string-array>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_activity_contact_us_fragment">ContactUsFragment</string>
+    <string name="title_activity_about_us_fragment">AboutUsFragment</string>
+    <string name="title_activity_contact_us">Contact Us</string>
+    <string name="title_activity_about_us">About Us</string>
+    <string name="title_activity_reach_us">ReachUsActivity</string>
+    <string name="title_activity_questions">QuestionsActivity</string>
+    <string name="title_activity_rulesand_regulations">Rules and Regulations</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_exhibitions_slide_tab">Exhibitions</string>
+    <string name="rules">Rules and Regulations</string>
+    
+    <string-array name="rules_content">
+        <item><![CDATA[•	Entry to compete in the project expo is only through online registration. Online registrations will close on …….]]></item>
+        <item><![CDATA[•	A video demonstration of the project is preferred for the college level expo.]]></item>
+        <item><![CDATA[•	A team of maximum 5 members is allowed.]]></item>
+        <item><![CDATA[•	Cross College teams are allowed.]]></item>
+        <item><![CDATA[•	Once selected members cannot be added or changed.]]></item>
+        <item><![CDATA[•	All selected candidates will be notified via e-mail or phone.]]></item>
+        <item><![CDATA[•	The selected candidates are required to bring 2 hard copies of their project report.]]></item>
+        <item><![CDATA[•	All selected teams will be given sufficient space along with basic requirements.]]></item>
+        <item><![CDATA[•	Teams in need of any other specific requirement may contact…….]]></item>
+        <item><![CDATA[•	Only ongoing projects or fully operational projects will be selected.]]></item>
+        <item><![CDATA[•	Projects in any discipline of engineering is welcome. Projects outside field of engineering that are innovative are also encouraged. (This rule isn’t a must for school level, any area is accepted.)]]></item>
+        <item><![CDATA[•	Points will be awarded on the basis of]]></item>
+        <item><![CDATA[    o	Innovation]]></item>
+        <item><![CDATA[    o	Applicability]]></item>
+        <item><![CDATA[    o	Presentation Skills]]></item>
+        <item><![CDATA[    o	Replication Potential and Social Acceptance]]></item>
+        <item><![CDATA[•	Judges decision will be final and binding.]]></item>
+        <item><![CDATA[]]></item>
+        <item><![CDATA[]]></item>
+        <item><![CDATA[]]></item>
+        <item><![CDATA[]]></item>
+
+    </string-array>
+
+    <string name="Questions">Got any questions?</string>
+    <string name="questions_button_text">Submit</string>
+    <string name="title_activity_best_idea">Best Idea</string>
+    <string name="title_activity_cynosure_quiz">Cynosure Quiz</string>
+    <string name="title_activity_paper_presentation">Insight</string>
+    <string name="title_activity_project_competition">Project Competition</string>
+    <string name="title_activity_whatis_cynosure">What is Cynosure?</string>
+
+
+</resources>
